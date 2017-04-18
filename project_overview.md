@@ -7,7 +7,7 @@ By Gregory Winkler
 This map is the area where I was raised and a region that is still important to me. This area was not a popular extract on Metro Extracts, so I am curious to see what the database reveals for the region.
 
 
-##**Problematic areas with the Map Data**
+## **Problematic areas with the Map Data**
 
 After downloading a sample of the data, a few issues were discovered that should be cleaned up before taking a deeper dive.
 
@@ -135,7 +135,7 @@ Separately, I cleaned up the street types that were abbreviated.
 			pass
 
 
-##**Data Overview**
+## **Data Overview**
 
 This section contains basic statistics about the dataset, including the SQL queries used to retrieve the information.
 
@@ -264,6 +264,6 @@ Its interesting to see Tim Hortons is the most frequent here but not too surpris
 **Idea to Improve the Map**
 After reviewing the data and the city count queried above, the map might see significant improvements if users were made aware of significant shortcomings in certain regions of the map. This might encourage users to contribute to that region if they know it has significant room for improvement. 
 
-##**Conclusion**
+## **Conclusion**
 
 The data revealed a lot of information, but it was disappointing to see that the brief area of Canada that is part of this map has significantly more information than the city of Buffalo and its suburbs.  However, aside from a few issues, it is encouraging to know that the data is quite clean.  It would be great to see significant contributions to the Buffalo region whether by a GPS bot or individual contributions.
