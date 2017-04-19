@@ -7,7 +7,7 @@ By Gregory Winkler
 This map is the area where I was raised and a region that is still important to me. This area was not a popular extract on Metro Extracts, so I am curious to see what the database reveals for the region.
 
 
-##**Problematic areas with the Map Data**
+## **Problematic areas with the Map Data**
 
 After downloading a sample of the data, a few issues were discovered that should be cleaned up before taking a deeper dive.
 
@@ -201,7 +201,7 @@ This section contains basic statistics about the dataset, including the SQL quer
 223
 
 
-##**Additional Ideas**
+## **Additional Ideas**
 
 
 **Top 10 City Tags**
@@ -261,9 +261,13 @@ Its interesting to see Tim Hortons is the most frequent here but not too surpris
 	restaurant ............. 331
 	parking ................ 323
 
-**Idea to Improve the Map**
-After reviewing the data and the city count queried above, the map might see significant improvements if users were made aware of significant shortcomings in certain regions of the map. This might encourage users to contribute to that region if they know it has significant room for improvement. 
+**Enhancing the Map**
+After reviewing the data and the city count queried above, the map might see significant improvements if users were made aware of significant shortcomings in certain regions of the map. This might encourage users to contribute to that region if they know it has significant room for improvement.  
 
-##**Conclusion**
+One possible enhancement is to cross-reference the existing OpenStreetMaps data with other available address books or datasets.  The map database could then determine whether or not a node or way exists for a given address or GPS coordinate.  Once OpenStreetMaps has a database of addresses that do not exist in its system, it could create a heat-map showing contributors the geographic locations of the missing data.  This might encourage contributors to focus on those areas with the least amount of data.  
+
+However, this idea does have a few limitations in its ability to provide the necessary changes.  First, it would likely require significant computing power and time to cross-reference the OpenStreetMaps database with other databases.  A more feasible solution might be to allow contributors to request the heat-map for a limited geographic location that they can then target to update.  Second, a cross-reference check would likely assume that current entries in the OpenStreetMaps are accurate and complete. This might prevent users from fixing existing issues.  The map would then be populated with faulty data rendering it less reliable.  Despite its shortcomings, it could be a useful tool in contributing to the maps database.
+
+## **Conclusion**
 
 The data revealed a lot of information, but it was disappointing to see that the brief area of Canada that is part of this map has significantly more information than the city of Buffalo and its suburbs.  However, aside from a few issues, it is encouraging to know that the data is quite clean.  It would be great to see significant contributions to the Buffalo region whether by a GPS bot or individual contributions.
