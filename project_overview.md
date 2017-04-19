@@ -135,7 +135,7 @@ Separately, I cleaned up the street types that were abbreviated.
 			pass
 
 
-##**Data Overview**
+## **Data Overview**
 
 This section contains basic statistics about the dataset, including the SQL queries used to retrieve the information.
 
